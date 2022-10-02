@@ -1,17 +1,21 @@
-name: dino-ai
+name: rl
 channels:
   - conda-forge
 dependencies:
+  - pytorch
+  - torchvision
+  - tensorboard
   - jupyter
   - pandas
   - matplotlib
   - stable-baselines3[extra]
   - opencv
-  - python=3.10
+  - tesseract
   - pytesseract
+  - python=3.10
+  - python-mss
   - protobuf
   - tqdm
   - black
 
-# conda install pytorch torchvision torchaudio -c pytorch
-# pip install mss pyautogui
+# pip install pyautogui

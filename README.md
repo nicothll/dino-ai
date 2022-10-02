@@ -22,13 +22,25 @@ conda env create -f envs/conda.yaml
 ## Others dependencies:
 Activate your conda environment:
 ```bash
-conda activate dino-ai
+conda activate rl
 ```
-Run the following command to install **pytorch**:
+
+Run the following command to install other necessary dependencies:
 ```bash
-conda install pytorch torchvision torchaudio -c pytorch
+pip install pyautogui
 ```
-And run the following command to install other necessary dependencies:
+
+## On MacOs, install Tesseract for OCR:
+Installation via Homebrew:
 ```bash
-pip install mss pyautogui
+brew install tesseract
 ```
+Other kind of installations click [here](https://tesseract-ocr.github.io/tessdoc/Installation.html)
+
+<br>
+
+# Useful Documentations
+### [Stable-Baselines3](https://stable-baselines3.readthedocs.io/en/master/guide/quickstart.html)
+
+### [Python MSS](https://python-mss.readthedocs.io/usage.html)
+### [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/quickstart.html)
